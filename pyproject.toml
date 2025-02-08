@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=48", "setuptools_scm[toml]>=6.3.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blueprint"  
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dynamic = ["version"]
+dependencies = [
+    "streamlit",
+    "torch>=2.0.0",
+    "opencv-python",
+    "numpy",
+    "dlib-binary",
+    "retinaface-pytorch",
+    "efficientnet_pytorch",
+    "albumentations",
+    "grad-cam==1.4.8",
+    "Pillow"
+]
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings-python",
+]
+
+tests = [
+    "pytest>=8,<9",
+    "pytest-sugar>=0.9.6",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "tests.*"]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools_scm]
