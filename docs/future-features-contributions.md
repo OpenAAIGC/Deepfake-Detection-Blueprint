@@ -2,6 +2,19 @@
 
 This Blueprint is an evolving project designed to grow with the help of the open-source community. Whether you’re an experienced developer or just starting, there are many ways you can contribute and help shape the future of this tool.
 
+## 🎯 **Feature Roadmap**
+
+### 🎥 **Video Modality Enhancements**
+- Implementation of Eulerian Video Magnification to spot the following:
+  > Anomalous pulse patterns in rapport with magnified colours
+  > Breathing pattern in rapport with magnified motion
+  - Further new heuristics mostly related to spectral domain
+
+### 🔮 **Other plans**
+  - Addition of audio modality fake detection
+
+
+
 ---
 
 ## 🌟 **How You Can Contribute**
@@ -22,6 +35,9 @@ Got an idea for how this Blueprint could be improved? You can share your suggest
 
 ### 🌍 **Build New Blueprints**
 This project is part of a larger initiative to create a collection of reusable starter code solutions that use open-source AI tools. If you’re inspired to create your own Blueprint, you can use the [Blueprint-template](https://github.com/new?template_name=Blueprint-template&template_owner=mozilla-ai) to get started.
+
+
+
 
 ---
 
