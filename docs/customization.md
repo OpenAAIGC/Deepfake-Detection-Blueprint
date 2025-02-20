@@ -6,15 +6,12 @@ This Blueprint is designed to be flexible and easily adaptable to your specific 
 
 ## 🧠 **Changing the Model**
 
-
-
-## 📝 **Modifying the system Prompt**
-
+Given the structure of the blueprint, there's a lot of headroom for swapping (or adding new) models- since the video modality is frame-wise and the other visualizers besides class activation map (and naturally, another CNN would be the easiest fit for the GradCAM setup) are architecture-agnostic, there's little work needed to adapt other popular choices out of the box.
 
 
 ## 💡 Other Customization Ideas
 
-- other ideas..
+- Feel free to look around [here](https://paper.imzh.me/) for resources on how to best upgrade this blueprint to suit your needs! 
 
 
 ## 🤝 **Contributing to the Blueprint**
