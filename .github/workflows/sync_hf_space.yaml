@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/SixOpen/WIPDockerBP
+      - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/SixOpen/WIPDockerBP hf-space
       - run: |
           cp demo/app.py hf-space/app.py
           cp demo/Dockerfile hf-space/Dockerfile
