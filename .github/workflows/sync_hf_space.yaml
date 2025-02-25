@@ -16,7 +16,7 @@ jobs:
       - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/SixOpen/WIPDockerBP hf-space
       - run: |
           cp demo/app.py hf-space/app.py
-          cp demo/Dockerfile hf-space/Dockerfile
+          cp Dockerfile hf-space/Dockerfile
       - run: |
           cd hf-space
           git config user.name 'github-actions[bot]'
