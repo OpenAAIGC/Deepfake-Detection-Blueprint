@@ -1,6 +1,15 @@
-# Deepfake Detection Blueprint
+<p align="center">
+  <picture>
+    <!-- When the user prefers dark mode, show the white logo -->
+    <source media="(prefers-color-scheme: dark)" srcset="./images/Blueprint-logo-white.png">
+    <!-- When the user prefers light mode, show the black logo -->
+    <source media="(prefers-color-scheme: light)" srcset="./images/Blueprint-logo-black.png">
+    <!-- Fallback: default to the black logo -->
+    <img src="./images/Blueprint-logo-black.png" width="35%" alt="Project logo"/>
+  </picture>
+</p>
 
-<p align="center"><img src="./images/Blueprints-logo.png" width="35%" alt="Mozilla AI Blueprints logo"/></p>
+# Deepfake Detection Blueprint
 
 [![Documentation](https://img.shields.io/badge/docs-mkdocs-blue)](https://github.com/OpenAAIGC/Deepfake-Detection-Blueprint)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -9,6 +18,8 @@
 ## 🕵️ About
 
 The Deepfake Detection Blueprint is an open-source tool for detecting forms of tampered media, particularly tampering at face region of images and videos. The purpose of the blueprint is to combine a deep learning model that's robust to many sorts of forgery with new heuristics which aim to target characteristics of AI Generated Content (AIGC) when cross-referenced to more traditional methods like Error Level Analysis (ELA)- for instance, ELA the traditional heuristic highlights things like copy move tampering whereas ACA (Advanced Colour Analysis- exclusive to this Blueprint thus far) shows tell-tale signs of diffusion generated imagery- usually, features of forgery that appear very prominently in ELA do not appear in ACA, whereas the other way around sparse highlighted pixels of the same density and distributed evenly unlike the ELA counterpart may hint towards higher likelihood of AIGC. 
+
+📘 To explore this project further and discover other Blueprints, visit the [**Blueprints Hub**](https://developer-hub.mozilla.ai/).
 
 <details>
 <summary>🔍 Click for summary</summary>
@@ -38,6 +49,8 @@ These methods work together to provide a comprehensive assessment of media authe
 - **Tech Enthusiasts**: Learning about computer vision and media forensics
 
 ## 🚀 Quick Start
+
+[![Try the Hosted Demo on Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Try%20on-Spaces-blue)](https://huggingface.co/spaces/SixOpen/WIPDockerBP)
 
 <details open>
 <summary><b>💻 Local Installation</b></summary>
